@@ -1,5 +1,5 @@
 import openSocket from 'socket.io-client';
-const  socket = openSocket('https://light-xhe.begin.app', { extraHeaders: {'my-headers-header': 'sss'} });
+const  socket = openSocket('https://wild-gray-elephant-suit.cyclic.app');
 
 function subscribeToTimer(cb) {
   socket.on('timer', timestamp => cb(null, timestamp));
